@@ -9,7 +9,7 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = 'YOUR PROJECT NAME HERE as topic_quick_start'
+project = 'Evaluate High-throughput Sequencing Reads with FastQC Quickstart'
 copyright = '2017, CyVerse'
 author = 'CyVerse'
 version = '1.0'
