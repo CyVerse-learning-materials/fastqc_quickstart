@@ -104,7 +104,7 @@ Input and example data
       - `SRR1028781.fastq <http://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/quickstarts/fastqc/SRR1028781.fastq>`_
 
 
-----------
+-----
 
 
 *Get started: Evaluate Reads with FastQC*
@@ -120,8 +120,9 @@ Input and example data
 
 1. Login to the `Discovery Environment <https://de.cyverse.org/de/>`__
 
-2. Click Apps from the DE workspace and search for `FastQC 0.11.5 (multi-file) <https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de>`_;
-   click on the actual app name to run the App.
+2. Click `FastQC 0.11.5 (multi-file) <https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de>`_
+   to open the App, or click on Apps in the DE workspace and search for and run
+   this App.
 
 3. Under “Analysis Name” leave the defaults or make any desired notes.
 
@@ -145,7 +146,7 @@ Input and example data
    result files (in zip format) using the simple download, unzip the files and
    open the results in a web browser.
 
-
+----
 
 *Summary*
 ~~~~~~~~~~~
@@ -192,16 +193,13 @@ data where you have many highly expressed transcripts. Here are a few tips:
 	detected, you will need to remove them in downstream cleaning.
 
 
-
 **Next Steps:**
-
-----------
 
 Following your report, you may wish to apply one of several tools in the
 Discovery Environment to, for example, remove sequencing adaptors and trim
 low quality portions of reads. The `Trimmomatic App <https://wiki.cyverse.org/wiki/display/DEapps/Trimmomatic-programmable-0.33>`_ is suggested.
 
-
+----
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
