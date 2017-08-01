@@ -121,7 +121,7 @@ Input and example data
 1. Login to the `Discovery Environment <https://de.cyverse.org/de/>`__
 
 2. Click `FastQC 0.11.5 (multi-file) <https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de>`_
-   to open the App, or click on Apps in the DE workspace and search for and run
+   to open the App, or click on **Apps** in the DE workspace and search for and run
    this App.
 
 3. Under “Analysis Name” leave the defaults or make any desired notes.
@@ -135,10 +135,10 @@ Input and example data
 	    *cyverse_training > quickstarts > fastqc and select the SRR1028781.fastq file.*
 
 
-5. Click Launch Analysis. You will receive a notification and may close the
+5. Click **Launch Analysis**. You will receive a notification and may close the
    Apps window.
 
-6. Click on Analyses from the DE workspace and monitor the status of your
+6. Click on **Analyses** from the DE workspace and monitor the status of your
    submitted job (You may have to click refresh to view updated status).
 
 7. In the Analysis console, once your status appears as ‘Completed,’ click
@@ -222,7 +222,7 @@ Post your question to the user forum:
 ----
 
 |Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
+`Learning Center Home`_
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
