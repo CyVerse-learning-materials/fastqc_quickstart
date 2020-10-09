@@ -1,7 +1,12 @@
-|CyVerse logo|_
+.. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
+
+
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
+
 
 Evaluate High-throughput Sequencing Reads with FastQC
 =====================================================
@@ -13,11 +18,10 @@ Evaluate High-throughput Sequencing Reads with FastQC
 Goal
 ----
 
-The `FastQC <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_
-software is a popular way to evaluate the quality of high-throughput sequencing
+The |FastQC| software is a popular way to evaluate the quality of high-throughput sequencing
 reads (e.g. reads from Illumina or PacBio sequencing). This quickstart won't go
 into all of the nuances of interpreting these results (see instead the
-official `FastQC Documentation <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/>`_ ).
+official |FastQC|.
 Rather, we will get you using the tool right away in the Discovery Environment.
 
 
@@ -32,6 +36,21 @@ Rather, we will get you using the tool right away in the Discovery Environment.
 
 ----
 
+Manual Maintainer(s)
+------------------------
+
+Who to contact if this manual needs fixing. You can also email
+`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+.. list-table::
+    :header-rows: 1
+
+    * - Maintainer
+      - Institution
+      - Contact
+    * - Amanda Cooksey
+      - CyVerse / UA
+      - amandamcooksey@gmail.com
 
 Prerequisites
 -------------
@@ -54,7 +73,7 @@ Downloads, access, and services
 	      - Link/Download
 	    * - CyVerse account
 	      - You will need a CyVerse account to complete this exercise
-	      - `Register <https://user.cyverse.org/>`_
+	      - |CyVerse User Portal|
 
 
 Platform(s)
@@ -75,14 +94,14 @@ Platform(s)
       - Learning Center Docs
     * - Data Store
       - GUI/Command line
-      - `Data Store <http://www.cyverse.org/data-store>`_
-      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
-      - `Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
+      - |Data Store|
+      - |Data Store Manual|
+      - |Data Store Guide|
     * - Discovery Environment
       - Web/Point-and-click
-      - `Discovery Environment <https://de.cyverse.org/de/>`_
-      - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`__
+      - |Discovery Environment|
+      - |DE Manual|
+      - |Discovery Environment Guide|
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -97,11 +116,11 @@ Input and example data
       - Preparation/Notes
       - Example Data
     * - Sequencing reads
-      - `FastQ <https://en.wikipedia.org/wiki/FASTQ_format>`_
+      - |fastq|
       - Any sequencing reads in FastQ format will work. They do not
         need to be pre-processed. They may also be compressed (e.g.
         fastq.gz)
-      - `SRR1028781.fastq <http://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/quickstarts/fastqc/SRR1028781.fastq>`_
+      - |SRR1028781|
 
 
 -----
@@ -114,24 +133,24 @@ Input and example data
 
 	If you have not already imported your own sequence read files to CyVerse,
 	you can follow the instructions for uploading data, for example using
-	Cyberduck, in our `Data Store guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_
+	Cyberduck, in our |Data Store Guide|
 
 
 
-1. Login to the |discovery_enviornment|.
+1. Login to the |Discovery Environment|.
 
 2. Click |fastqc| to open the App, or click on **Apps** in the DE workspace and
    search for and run FastQC 0.11.5.
 
 3. Under “Analysis Name” leave the defaults or make any desired notes.
 
-4. Under “Select Input data” for ‘Input file, click Browse, then navigate to and
+4. Under “Input” for ‘Input file, click Browse, then navigate to and
    select one or more FastQ files to analyze; Then click OK.
 
    .. Note::
 
 	    To use our example data, navigate to *Community Data >*
-	    *cyverse_training > quickstarts > fastqc and select the SRR1028781.fastq file.*
+	    *cyverse_training > quickstarts > fastqc > 00_input and select the SRR1028781.fastq file.*
 
 
 5. Click **Launch Analysis**. You will receive a notification and may close the
@@ -141,7 +160,7 @@ Input and example data
    submitted job (You may have to click refresh to view updated status).
 
 7. In the Analysis console, once your status appears as ‘Completed,’ click
-   on the name of your analysis to navigate you to the results. Download the
+   on the name of your analysis to navigate to the results. Download the
    result files (in zip format) using the simple download, unzip the files and
    open the results in a web browser.
 
@@ -152,7 +171,7 @@ Input and example data
 
 Analyzing a FastQC report, you can evaluate the quality of your sequencing
 results. The best way to interpret this report is to consult the official
-`FastQC Documentation`_. You should keep in mind that simply because individual
+|FastQC|. You should keep in mind that simply because individual
 reports may generate a warning or fail, this does not mean your data are
 unusable. In most cases poor quality reads can be eliminated by subsequent
 cleaning steps without losing a large amount of sequence. Some reports such as
@@ -196,55 +215,29 @@ data where you have many highly expressed transcripts. Here are a few tips:
 
 Following your report, you may wish to apply one of several tools in the
 Discovery Environment to, for example, remove sequencing adaptors and trim
-low quality portions of reads. The Trimmomatic-programmable-0.33 app is
+low quality portions of reads. The Trimmomatic-programmable-0.38 app is
 suggested.
 
 ----
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-See the original `FastQC Documentation`_ for all the instructions on how to use
+See the original |FastQC| for all the instructions on how to use
 this tool and interpret reports.
-
-
-Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
-
-Post your question to the user forum:
-`Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
 
 ----
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/fastqc_quickstart>`_
+- Search for an answer:
+  |CyVerse Learning Center|
+- Ask us for help:
+  click |Intercom| on the lower right-hand side of the page
+- Report an issue or submit a change:
+  |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
 
-|Home_Icon|_
-`Learning Center Home`_
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-    :width: 500
-    :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-.. |perbase_good| image:: ./img/perbase_good.png
-    :width: 250
-    :height: 200
-.. |persequence_good| image:: ./img/persequence_good.png
-    :width: 250
-    :height: 200
-.. |adapter_good| image:: ./img/adapter_good.png
-    :width: 250
-    :height: 200
-.. |discovery_enviornment| raw:: html
 
-    <a href="https://de.cyverse.org/de/" target="_blank">Discovery Environment</a>
-
-.. |fastqc| raw:: html
-
-    <a href="https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de" target="_blank">FastQC 0.11.5 (multi-file)</a>

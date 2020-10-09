@@ -1,0 +1,54 @@
+.. Comment: Version 2.0, May 2020
+.. Comment: URLS
+
+
+.. Comment: Fix this link if you are using a quicklaunch button
+
+.. |CyVerse_launch| image:: ./img/Powered-By-CyVerse-blue.png
+    :width: 125
+    :height: 20
+    :target: https://de.cyverse.org/de/  target="_blank"
+
+.. |persequence_good| image:: ./img/persequence_good.png
+    :width: 250
+    :height: 200
+
+.. |adapter_good| image:: ./img/adapter_good.png
+    :width: 250
+    :height: 200
+
+.. |perbase_good| image:: ./img/perbase_good.png
+    :width: 250
+    :height: 200
+
+.. |CyVerse Learning Center| raw:: html
+
+   <a href="http://learning.cyverse.org" target="blank">CyVerse Learning Center</a>
+
+
+.. |fastqc| raw:: html
+
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de" target="blank">FastQC 0.11.5 (multi-file)</a>
+
+
+.. |FastQC| raw:: html
+
+   <a href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/" target="_blank">FastQC documentation</a>
+
+
+.. |fastq| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/FASTQ_format" target="_blank">fastq</a>
+
+
+.. |SRR1028781| raw:: html
+
+   <a href="http://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/quickstarts/fastqc/SRR1028781.fastq" target="_blank">SRR1028781.fastq</a>
+
+
+.. |Github Repo Link| raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/fastqc_quickstart" target="_blank">Github Repo Link</a>
+
+
+
